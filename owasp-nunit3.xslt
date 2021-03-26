@@ -8,8 +8,7 @@
    <xsl:variable name="generatedDateTime" select="OWASPZAPReport/generated" />
    
    <xsl:template match="/">
-   <test-run id="1" name="OWASP Zap Report" fullname="OWASP Zap Report" testcasecount="{$NumberOfItems}" result="Failed" total="{$NumberOfItems}" passed="0" failed="{$NumberOfItems}" inconclusive="0" skipped="0" asserts="{$NumberOfItems}" engine-version="" clr-version="" start-time="{$generatedDateTime}" end-time="{$generatedDateTime}" duration="0">
-         
+   <test-run id="1" name="OWASP Zap Report" fullname="OWASP Zap Report" testcasecount="" result="Failed" total="{$NumberOfItems}" passed="0" failed="{$NumberOfItems}" inconclusive="0" skipped="0" asserts="{$NumberOfItems}" engine-version="3.9.0.0" clr-version="4.0.30319.42000" start-time="{$generatedDateTime}" end-time="{$generatedDateTime}" duration="0">
 	 <command-line>a</command-line>
          
 	 <test-suite type="Assembly" id="" name="OWASP-Assembly" fullname="OWASP-Assembly" runstate="Runnable" testcasecount="{$NumberOfItems}" result="Failed" site="Child" start-time="{$generatedDateTime}" end-time="{$generatedDateTime}" duration="0" total="{$NumberOfItems}" passed="0" failed="{$NumberOfItems}" warnings="0" inconclusive="0" skipped="0" asserts="{$NumberOfItems}">
